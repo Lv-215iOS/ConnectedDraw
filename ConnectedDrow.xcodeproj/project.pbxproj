@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2503520A1E6718DF00498F6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250352091E6718DF00498F6B /* AppDelegate.swift */; };
+		2503520C1E6718DF00498F6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503520B1E6718DF00498F6B /* ViewController.swift */; };
+		2503520F1E6718DF00498F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2503520D1E6718DF00498F6B /* Main.storyboard */; };
+		250352111E6718DF00498F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250352101E6718DF00498F6B /* Assets.xcassets */; };
+		250352141E6718DF00498F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250352121E6718DF00498F6B /* LaunchScreen.storyboard */; };
+		2503521F1E6718DF00498F6B /* ConnectedDrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503521E1E6718DF00498F6B /* ConnectedDrowTests.swift */; };
+		2503522A1E6718DF00498F6B /* ConnectedDrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250352291E6718DF00498F6B /* ConnectedDrowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2503521B1E6718DF00498F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250351FE1E6718DF00498F6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 250352051E6718DF00498F6B;
+			remoteInfo = ConnectedDrow;
+		};
+		250352261E6718DF00498F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250351FE1E6718DF00498F6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 250352051E6718DF00498F6B;
+			remoteInfo = ConnectedDrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		250352061E6718DF00498F6B /* ConnectedDrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectedDrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		250352091E6718DF00498F6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2503520B1E6718DF00498F6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2503520E1E6718DF00498F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		250352101E6718DF00498F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		250352131E6718DF00498F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		250352151E6718DF00498F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2503521A1E6718DF00498F6B /* ConnectedDrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectedDrowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2503521E1E6718DF00498F6B /* ConnectedDrowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedDrowTests.swift; sourceTree = "<group>"; };
+		250352201E6718DF00498F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		250352251E6718DF00498F6B /* ConnectedDrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectedDrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		250352291E6718DF00498F6B /* ConnectedDrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedDrowUITests.swift; sourceTree = "<group>"; };
+		2503522B1E6718DF00498F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		250352031E6718DF00498F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250352171E6718DF00498F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250352221E6718DF00498F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250351FD1E6718DF00498F6B = {
+			isa = PBXGroup;
+			children = (
+				250352081E6718DF00498F6B /* ConnectedDrow */,
+				2503521D1E6718DF00498F6B /* ConnectedDrowTests */,
+				250352281E6718DF00498F6B /* ConnectedDrowUITests */,
+				250352071E6718DF00498F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		250352071E6718DF00498F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				250352061E6718DF00498F6B /* ConnectedDrow.app */,
+				2503521A1E6718DF00498F6B /* ConnectedDrowTests.xctest */,
+				250352251E6718DF00498F6B /* ConnectedDrowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		250352081E6718DF00498F6B /* ConnectedDrow */ = {
+			isa = PBXGroup;
+			children = (
+				250352091E6718DF00498F6B /* AppDelegate.swift */,
+				2503520B1E6718DF00498F6B /* ViewController.swift */,
+				2503520D1E6718DF00498F6B /* Main.storyboard */,
+				250352101E6718DF00498F6B /* Assets.xcassets */,
+				250352121E6718DF00498F6B /* LaunchScreen.storyboard */,
+				250352151E6718DF00498F6B /* Info.plist */,
+			);
+			path = ConnectedDrow;
+			sourceTree = "<group>";
+		};
+		2503521D1E6718DF00498F6B /* ConnectedDrowTests */ = {
+			isa = PBXGroup;
+			children = (
+				2503521E1E6718DF00498F6B /* ConnectedDrowTests.swift */,
+				250352201E6718DF00498F6B /* Info.plist */,
+			);
+			path = ConnectedDrowTests;
+			sourceTree = "<group>";
+		};
+		250352281E6718DF00498F6B /* ConnectedDrowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				250352291E6718DF00498F6B /* ConnectedDrowUITests.swift */,
+				2503522B1E6718DF00498F6B /* Info.plist */,
+			);
+			path = ConnectedDrowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		250352051E6718DF00498F6B /* ConnectedDrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2503522E1E6718DF00498F6B /* Build configuration list for PBXNativeTarget "ConnectedDrow" */;
+			buildPhases = (
+				250352021E6718DF00498F6B /* Sources */,
+				250352031E6718DF00498F6B /* Frameworks */,
+				250352041E6718DF00498F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectedDrow;
+			productName = ConnectedDrow;
+			productReference = 250352061E6718DF00498F6B /* ConnectedDrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		250352191E6718DF00498F6B /* ConnectedDrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250352311E6718DF00498F6B /* Build configuration list for PBXNativeTarget "ConnectedDrowTests" */;
+			buildPhases = (
+				250352161E6718DF00498F6B /* Sources */,
+				250352171E6718DF00498F6B /* Frameworks */,
+				250352181E6718DF00498F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2503521C1E6718DF00498F6B /* PBXTargetDependency */,
+			);
+			name = ConnectedDrowTests;
+			productName = ConnectedDrowTests;
+			productReference = 2503521A1E6718DF00498F6B /* ConnectedDrowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		250352241E6718DF00498F6B /* ConnectedDrowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250352341E6718DF00498F6B /* Build configuration list for PBXNativeTarget "ConnectedDrowUITests" */;
+			buildPhases = (
+				250352211E6718DF00498F6B /* Sources */,
+				250352221E6718DF00498F6B /* Frameworks */,
+				250352231E6718DF00498F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250352271E6718DF00498F6B /* PBXTargetDependency */,
+			);
+			name = ConnectedDrowUITests;
+			productName = ConnectedDrowUITests;
+			productReference = 250352251E6718DF00498F6B /* ConnectedDrowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		250351FE1E6718DF00498F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Oleksandr;
+				TargetAttributes = {
+					250352051E6718DF00498F6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MG2T55V3SN;
+						ProvisioningStyle = Automatic;
+					};
+					250352191E6718DF00498F6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MG2T55V3SN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 250352051E6718DF00498F6B;
+					};
+					250352241E6718DF00498F6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MG2T55V3SN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 250352051E6718DF00498F6B;
+					};
+				};
+			};
+			buildConfigurationList = 250352011E6718DF00498F6B /* Build configuration list for PBXProject "ConnectedDrow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 250351FD1E6718DF00498F6B;
+			productRefGroup = 250352071E6718DF00498F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250352051E6718DF00498F6B /* ConnectedDrow */,
+				250352191E6718DF00498F6B /* ConnectedDrowTests */,
+				250352241E6718DF00498F6B /* ConnectedDrowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		250352041E6718DF00498F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250352141E6718DF00498F6B /* LaunchScreen.storyboard in Resources */,
+				250352111E6718DF00498F6B /* Assets.xcassets in Resources */,
+				2503520F1E6718DF00498F6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250352181E6718DF00498F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250352231E6718DF00498F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		250352021E6718DF00498F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2503520C1E6718DF00498F6B /* ViewController.swift in Sources */,
+				2503520A1E6718DF00498F6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250352161E6718DF00498F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2503521F1E6718DF00498F6B /* ConnectedDrowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250352211E6718DF00498F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2503522A1E6718DF00498F6B /* ConnectedDrowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2503521C1E6718DF00498F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 250352051E6718DF00498F6B /* ConnectedDrow */;
+			targetProxy = 2503521B1E6718DF00498F6B /* PBXContainerItemProxy */;
+		};
+		250352271E6718DF00498F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 250352051E6718DF00498F6B /* ConnectedDrow */;
+			targetProxy = 250352261E6718DF00498F6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2503520D1E6718DF00498F6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2503520E1E6718DF00498F6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		250352121E6718DF00498F6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250352131E6718DF00498F6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2503522C1E6718DF00498F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2503522D1E6718DF00498F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2503522F1E6718DF00498F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MG2T55V3SN;
+				INFOPLIST_FILE = ConnectedDrow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ConnectedDrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		250352301E6718DF00498F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MG2T55V3SN;
+				INFOPLIST_FILE = ConnectedDrow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ConnectedDrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		250352321E6718DF00498F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MG2T55V3SN;
+				INFOPLIST_FILE = ConnectedDrowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ConnectedDrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectedDrow.app/ConnectedDrow";
+			};
+			name = Debug;
+		};
+		250352331E6718DF00498F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MG2T55V3SN;
+				INFOPLIST_FILE = ConnectedDrowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ConnectedDrowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectedDrow.app/ConnectedDrow";
+			};
+			name = Release;
+		};
+		250352351E6718DF00498F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MG2T55V3SN;
+				INFOPLIST_FILE = ConnectedDrowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ConnectedDrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ConnectedDrow;
+			};
+			name = Debug;
+		};
+		250352361E6718DF00498F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MG2T55V3SN;
+				INFOPLIST_FILE = ConnectedDrowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.ConnectedDrowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ConnectedDrow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		250352011E6718DF00498F6B /* Build configuration list for PBXProject "ConnectedDrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2503522C1E6718DF00498F6B /* Debug */,
+				2503522D1E6718DF00498F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2503522E1E6718DF00498F6B /* Build configuration list for PBXNativeTarget "ConnectedDrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2503522F1E6718DF00498F6B /* Debug */,
+				250352301E6718DF00498F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		250352311E6718DF00498F6B /* Build configuration list for PBXNativeTarget "ConnectedDrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250352321E6718DF00498F6B /* Debug */,
+				250352331E6718DF00498F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		250352341E6718DF00498F6B /* Build configuration list for PBXNativeTarget "ConnectedDrowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250352351E6718DF00498F6B /* Debug */,
+				250352361E6718DF00498F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 250351FE1E6718DF00498F6B /* Project object */;
+}
